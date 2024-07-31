@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#movie-form {
+    margin-bottom: 20px;
+}
+
+#movie-form input {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+#movie-form button {
+    padding: 5px 10px;
+}
+
+#movie-list {
+    margin-top: 20px;
+}
+
+.movie-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.movie-item p {
+    margin: 0;
+}
+
+.movie-item button {
+    padding: 5px 10px;
+    /* background-color: red; */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.movie-item button:hover {
+    /* background-color: darkred; */
+}
+
+.sui{
+    /* background-color: blue; */
+    width: 1rem;
+    height: 1rem;
+    background-image: url(./trash-solid.svg);
+    /* color: white; */
+    background-position: center;
+    background-size: contain;
+    padding: 2px;
+    background-repeat: no-repeat;
+}
